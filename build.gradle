@@ -11,7 +11,7 @@ dependencies {
 }
 
 pmd {
-    toolVersion = '6.44.0'
+    toolVersion = '6.39.0'
     ignoreFailures=true
     ruleSets = []
 pmdMain{
