@@ -12,6 +12,7 @@ dependencies {
 
 pmd {
     toolVersion = '6.44.0'
+    ignoreFailures=true
     ruleSets = []
 pmdMain{
 includes= ['**/Player.java']
