@@ -12,6 +12,9 @@ dependencies {
 
 pmd {
     toolVersion = '6.44.0'
-    ruleSetFiles = files("pmd.xml")
     ruleSets = []
+pmdMain{
+includes= ['**/Player.java']
+ruleSetFiles = files("pmd.xml")
+}
 }
