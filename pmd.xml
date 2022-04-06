@@ -12,17 +12,13 @@
     </rule>
 
     <rule ref="category/java/codestyle.xml">
-        <exclude name="LocalVariableCouldBeFinal"/>
-        <exclude name="AllClassesInterfacesEnumsAndAnnotationsMustBelongToNamedPackage"/>
-        <exclude name="ParameterIsNotAndCouldBeDeclaredFinal"/>
+        <exclude name="NoPackage"/>
+        <exclude name="MethodArgumentCouldBeFinal"/>
         <exclude name="PotentialViolationOfLawOfDemeter"/>
     </rule>
-    
+
     <rule ref="category/java/design.xml">
-        <exclude name="LocalVariableCouldBeFinal"/>
-        <exclude name="AllClassesInterfacesEnumsAndAnnotationsMustBelongToNamedPackage"/>
-        <exclude name="ParameterIsNotAndCouldBeDeclaredFinal"/>
-        <exclude name="PotentialViolationOfLawOfDemeter"/>
+        <exclude name="	LawOfDemeter"/>
     </rule>
 
 </ruleset>
